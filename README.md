@@ -1,8 +1,8 @@
-# 🚀 Intern Portal - Full Stack Application
+#  Intern Portal - Full Stack Application
 
 A simple full-stack intern portal dashboard built with React (frontend) and Node.js/Express (backend).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React** - UI framework
@@ -16,9 +16,9 @@ A simple full-stack intern portal dashboard built with React (frontend) and Node
 - **MongoDB** - Database
 - **Mongoose** - MongoDB ODM
 
-## 📋 Features
+##  Features
 
-### ✅ Core Features
+###  Core Features
 - **Login/Signup Page** - Mock authentication (no actual auth)
 - **Dashboard** - Displays:
   - Intern name
@@ -27,13 +27,13 @@ A simple full-stack intern portal dashboard built with React (frontend) and Node
   - Rewards/unlockables section
 - **Leaderboard** - Top performers based on donations
 
-### 🎯 API Endpoints
+###  API Endpoints
 - `GET /api/user/:id` - Get user details
 - `GET /api/leaderboard` - Get top performers
 - `POST /api/seed` - Seed database with dummy data
 - `GET /api/health` - Health check
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -43,7 +43,7 @@ A simple full-stack intern portal dashboard built with React (frontend) and Node
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/kdurgamaheshm/Intern-Portal/
 cd intern-portal
 ```
 
@@ -91,12 +91,12 @@ cd client
 npm start
 ```
 
-## 🌐 Access the Application
+##  Access the Application
 
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:5000
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 intern-portal/
@@ -110,19 +110,20 @@ intern-portal/
 │   │   ├── App.js
 │   │   └── index.js
 │   └── package.json
-├── server.js              # Express server
-├── package.json           # Backend dependencies
-├── .env                   # Environment variables
+├── Server/
+│    ├── server.js              # Express server
+│    ├── package.json           # Backend dependencies
+│     └── .env                  # Environment variables
 └── README.md
 ```
 
-## 🎯 Usage
+##  Usage
 
 1. **Login Page**: Enter any email/password to access the dashboard
 2. **Dashboard**: View your profile, referral code, donations, and rewards
 3. **Leaderboard**: See top performers based on donations raised
 
-## 🚀 Deployment
+##  Deployment
 
 ### Frontend (Netlify/Vercel)
 1. Build the frontend: `cd client && npm run build`
@@ -132,7 +133,7 @@ intern-portal/
 1. Add MongoDB Atlas connection string to `.env`
 2. Deploy to Render, Heroku, or Railway
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -140,6 +141,6 @@ intern-portal/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
